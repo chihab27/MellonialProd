@@ -472,14 +472,14 @@ function JObSearch({
   );
 }
 
-function JObSearchStory() {
+function JobSearchStory() {
   return (
     <div className="p-8 min-h-screen bg-gradient-to-b from-[#040D21] to-[#0B1221]">
       <div className="max-w-7xl mx-auto space-y-8">
         <h1 className="text-4xl font-bold text-emerald-400 text-center mb-8">
           Find Your Dream Tech Job
         </h1>
-        <JObSearch
+        <JobSearch
           searchPlaceholder="Search by title, company, or keywords..."
           locationPlaceholder="City, state, or remote"
         />
@@ -488,4 +488,4 @@ function JObSearchStory() {
   );
 }
 
-export default JObSearch;
+export default JobSearch;
